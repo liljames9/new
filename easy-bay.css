@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Nav Bar */
+.container {
+    margin: 0 70px;
+}
+.nav-bar {
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+.top {
+    margin-right: 100px;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.leaf {
+    background-color:aqua;
+    margin-right: ;
+}
+.shop {
+    height: 44px;
+    width: 44px;
+    border: 0px;
+}
+.search-bar {
+    padding: 5px;
+    width: 700px;
+    height: 39px;
+    border-radius: 20px;
+}
+.bottom {
+    margin: 20px;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.bottom a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/* Center Content */
+
+.whole-content {
+    margin: 0 70px;
+}
+.center {
+    padding: px;
+    margin-right: ;
+}
+.title {
+    text-align: center;
+    font-size: xx-large;
+}
+.main-top {
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-content {
+    display: flex;
+    width: 750px;
+}
+.words {
+    background-color:aqua;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    
+}
+.words-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.pic {
+    height: 295px;
+    width: 300px;
+}
+.right {
+    width: 600px;
+}
+.soothing {
+    background-color:aqua;
+    margin: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 325px;
+   height: 74px;
+
+}
+
+.main-bottom {
+    
+   padding: 30px;
+   background-color:rgb(151, 244, 244);
+}
+.pictures img {
+    width: 156px;
+    height: 156px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pictures div {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.pictures {
+    display: flex;
+}
+
+.cookies {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn {
+    background-color:aqua;
+    border: 2px solid black;
+    width: 70px;
+    height: 30px;
+    box-shadow: 5px 5px 5px #555;;
+}
+
+

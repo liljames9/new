@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="easy-bay.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="top">
+                <img src="leaf.png" alt="leaf-pic" class="leaf">
+                <h1>EasyBay</h1>
+                <input type="search" class="search-bar" placeholder="Search for anything">
+                <p>Sign In</p>
+                <img src="cart-dark.png" onclick="alert('Your Cart is empty!')" alt="cart-pic" class="shop">
+            </div>
+            <div class="bottom">
+                <ul class="list">
+                <li>
+                    <a href="#">Aeonium</a>
+                </li>
+                <li>
+                    <a href="#">Andormischus</a>
+                </li>
+                <li>
+                    <a href="#">Agave</a>
+                </li>
+                <li>
+                    <a href="#">Aloe</a>
+                </li>
+                <li>
+                    <a href="#">Anacampseros</a>
+                </li>
+                <li>
+                    <a href="#">Anacampseros</a>
+                </li>
+                <li>
+                    <a href="#">More...</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="whole-content">
+        <div class="center">
+            <div class="title">
+                <h1>Your Source for Serious Succulent Specialties</h1>
+            </div>
+            <div class="main-top">
+                <div class="left-content">
+                    <div class="words">
+                    <h1>Discover succulent varieties on pot or rack at a time!</h1>
+                    <div class="words-bottom">
+                        <h1>Discover</h1> <img src="arrow-light.png" alt="arrow-pic">
+                    </div>
+                    </div>
+                    <div class="pic">
+                    <div class="hover-pic">
+                        <img src="succulents-2.jpg" alt="hover-pic" class="responsive" onmouseover="changeImage(1,this)" onmouseout="changeImage(2,this)">
+                    </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="aloe-m.jpg" alt="aloe-pic">
+                    <div class="soothing">
+                        <h1>Soothing aloe</h1>
+                        <img src="arrow-light.png" alt="arrow-pic">
+                    </div>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="pictures">
+                    <div>
+                        <img src="aeonium-s.jpg" alt="aeon-pic">
+                        <p>Aeonium</p>
+                    </div>
+                    <div>
+                        <img src="aloe-s.jpg" alt="aloe-pic">
+                        <p>Aloe</p>
+                    </div>
+                    <div>
+                        <img src="cactus-s.jpg" alt="cactus-pic">
+                        <p>Cactus</p>
+                    </div>
+                    <div>
+                        <img src="echeveria-s.jpg" alt="echev-pic">
+                        <p>Echeveria</p>
+                    </div>
+                    <div>
+                        <img src="sedum-s.jpg" alt="sedum-pic">
+                        <p>Sedum</p>
+                    </div>
+                    <div>
+                        <img src="sempervivum-s.jpg" alt="semp-pic">
+                        <p>Sempervivum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-last" onclick="removeBox(this)">
+                <div class="cookies">
+                    <img src="alert-dark.png" alt="alert-btn">
+                    <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy</a></p>
+                    <button class="btn" onclick="removeBox(this)">I Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="easy-bay.js"></script>
+</body>
+</html>
